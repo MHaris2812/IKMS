@@ -118,7 +118,7 @@ function RecentActivity({ activities }) {
               <td className="py-2 px-4">{activity.state}</td>
               <td className="py-2 px-4">{activity.date}</td>
               <td className="py-2 px-4 space-x-2">
-                <button className="bg-blue-500 text-white px-4 py-1 rounded">View</button>
+                <Link href="/ManageArt"> <button className="bg-blue-500 text-white px-4 py-1 rounded">View</button></Link>
                 <button className="bg-blue-500 text-white px-4 py-1 rounded">Edit</button>
                 <button className="bg-blue-500 text-white px-4 py-1 rounded">Delete</button>
               </td>
